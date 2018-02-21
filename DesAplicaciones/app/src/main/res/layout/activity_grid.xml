@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="3"
+    android:columnCount="3"
+    android:orientation="horizontal"
+    tools:context="com.example.vazquez.desaplicaciones.GridActivity">
+    <LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Una vez calificada su experiencia, podrá compartirla en sus diferentes redes sociales"
+            android:textSize="8pt"
+            android:background="#FFFFCC"
+            android:textColor="#FF6600"
+            />
+    </LinearLayout>
+
+    <TableLayout
+
+        >
+
+
+        <ImageButton android:id="@+id/btn_seven"
+            android:text="@string/_7"
+            android:textSize="@dimen/text_size"
+            android:src="@drawable/face"
+            android:background="#FFFFCC"
+
+            />
+        <ImageButton android:id="@+id/btn_eight"
+            android:text="@string/_8"
+            android:textSize="@dimen/text_size"
+            android:src="@drawable/insta"
+            android:background="#FFFFCC"
+            />
+        <ImageButton android:id="@+id/btn_nine"
+            android:text="@string/_9"
+            android:textSize="@dimen/text_size"
+            android:src="@drawable/messe"
+            android:background="#FFFFCC"
+            />
+        <ImageButton android:id="@+id/btn_multi"
+            android:text="@string/multiplication1"
+            android:textSize="@dimen/text_size"
+            android:src="@drawable/whatsapp"
+            android:background="#FFFFCC"
+            />
+
+
+
+    </TableLayout>
+
+
+
+</TableLayout>

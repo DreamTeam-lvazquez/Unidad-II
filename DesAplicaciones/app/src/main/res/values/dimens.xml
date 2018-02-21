@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size">25pt</dimen>
+    <dimen name="image_size">80px</dimen>
+    <dimen name="margin_size">3pt</dimen>
+    <dimen name="size15">15pt</dimen>
+    <dimen name="size14">14pt</dimen>
+    <dimen name="size13">13pt</dimen>
+    <dimen name="number_size">155dp</dimen>
+    <dimen name="size_number">125dp</dimen>
+    <dimen name="number">25pt</dimen>
+</resources>

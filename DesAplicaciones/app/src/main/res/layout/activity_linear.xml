@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="5"
+    android:columnCount="3"
+    android:orientation="horizontal"
+    tools:context="com.example.vazquez.desaplicaciones.LinearActivity">
+<LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="De acuerdo a los emojis podrá calificar su experiencia que tuvo en la ciudad, posteriormente dando clic sobre unos de estos podra compartirla en sus redes sociales"
+        android:textSize="8pt"
+        android:textColor="#FF6600"
+        />
+
+</LinearLayout>
+
+
+    <ImageButton android:id="@+id/btn_seven"
+        android:text="@string/_7"
+        android:textSize="@dimen/text_size"
+        android:src="@drawable/mejor"
+        android:onClick="nextActivityCompar"
+        android:background="#FFFFCC"
+
+        />
+    <ImageButton android:id="@+id/btn_eight"
+        android:text="@string/_8"
+        android:textSize="@dimen/text_size"
+        android:src="@drawable/bien"
+        android:onClick="nextActivityCompar"
+        android:background="#FFFFCC"
+        />
+    <ImageButton android:id="@+id/btn_nine"
+        android:text="@string/_9"
+        android:textSize="@dimen/text_size"
+        android:src="@drawable/maso"
+        android:onClick="nextActivityCompar"
+        android:background="#FFFFCC"
+        />
+    <ImageButton android:id="@+id/btn_multi"
+        android:text="@string/multiplication1"
+        android:textSize="@dimen/text_size"
+        android:src="@drawable/triste"
+        android:onClick="nextActivityCompar"
+        android:background="#FFFFCC"
+        />
+
+
+
+</TableLayout>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Conoce Dolores Hidalgo C.I.N</string>
+    <dimen name="text_size">12pt</dimen>
+
+    <string name="name">Nombre</string>
+    <string name="location">Ubicación</string>
+    <string name="type">Descripción</string>
+    <string name="_your">your</string>
+    <string name="_exit">exit</string>
+    <string name="type_name">Type Name</string>
+    <string name="type_age">Type Age</string>
+    <string name="type_phone">Type Phone</string>
+    <string name="submit">Agregar</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="_0">0</string>
+    <string name="multiplication">multiplication</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="adition">addition</string>
+    <string name="divition">divition</string>
+    <string name="divition1">/</string>
+    <string name="dot">.</string>
+    <string name="equal">=</string>
+    <string name="adition1">+</string>
+    <string name="substraction1">-</string>
+    <string name="multiplication1">X</string>
+    <string name="your_data">Agregaste:</string>
+    <string name="txtLocation">Ubicación</string>
+    <string name="txtPhone">Descripción</string>
+    <string name="txtName">Nombre</string>
+    <string name="delete">Eliminar</string>
+    <string name="update">Actualizar</string>
+    <string name="form">Registrar</string>
+    <string name="phone">Teléfono</string>
+    <string name="bar">Bar</string>
+</resources>

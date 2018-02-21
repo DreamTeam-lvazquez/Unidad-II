@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25pt">
+
+        <Button
+            android:id="@+id/btn_sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:onClick="nextActivityForm"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete"
+
+            />
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/update"
+
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/margin_size"
+        android:textStyle="bold"
+        >
+
+
+        <ImageView
+            android:id="@+id/imv_photo"
+            android:layout_width="@dimen/number_size"
+            android:layout_height="@dimen/number_size"
+            android:layout_margin="@dimen/margin_size"
+            android:src="@mipmap/ic_launcher_round"
+
+            />
+
+        <TextView
+            android:id="@+id/txv_name"
+            android:layout_width="match_parent"
+            android:layout_height="108dp"
+            android:layout_marginBottom="@dimen/margin_size"
+            android:layout_marginTop="15pt"
+            android:text="@string/name"
+            android:textColor="#663300"
+            android:textSize="12pt" />
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txv_location"
+        android:text="@string/location"
+        android:layout_marginBottom="@dimen/margin_size"
+        android:textSize="10pt"
+        android:textColor="#FF9900"
+        android:layout_marginTop="9pt"
+
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txv_type"
+        android:text="@string/type"
+        android:textSize="9pt"
+        android:textColor="#c9904b"
+        />
+</LinearLayout>
+
